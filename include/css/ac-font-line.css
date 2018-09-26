@@ -1,0 +1,103 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Light-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Light-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Medium-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Bold-Hestia.woff) format('woff');
+}
+
+* { 
+	font-family: 'Noto Sans KR';
+	line-height: 1.0;
+	letter-spacing: -0.05em;
+}
+
+@media(max-width: 800px) {
+    * { 
+        font-family: 'default';
+        line-height: 1.0;
+        letter-spacing: -0.05em;
+    }
+}
+
+.ln10 { line-height: 1.0; }
+.ln15 { line-height: 1.5; }
+.ln18 { line-height: 1.8; }
+.ln20 { line-height: 2.0; }
+
+.lt100 { letter-spacing:  1.00em; }
+.lt000 { letter-spacing: -0.00em; }
+.lt003 { letter-spacing: -0.03em; }
+.lt005 { letter-spacing: -0.05em; }
+.lt007 { letter-spacing: -0.07em; }
+.lt009 { letter-spacing: -0.09em; }
+
+.we200 { font-weight: 100; }
+.we300 { font-weight: 300; }
+.we500 { font-weight: 500; }
+.we700 { font-weight: 700; }
+
+.tt1 { font-size: 70px; }
+.tt2 { font-size: 60px; }
+.tt3 { font-size: 50px; }
+.sb1 { font-size: 45px; }
+.sb2 { font-size: 40px; }
+.sb3 { font-size: 35px; }
+.dp1 { font-size: 30px; }
+.dp2 { font-size: 26px; }
+.dp3 { font-size: 23px; }
+.dp4 { font-size: 17px; }
+.cp1 { font-size: 15px; }
+.cp2 { font-size: 14px; }
+.cp3 { font-size: 12px; }
+.cp4 { font-size: 10px; }
+.exc1 { font-size: 22px; }
+
+.desk { display: block; }
+.mobile { display: none; }
+
+@media(max-width: 800px) {
+	.tt3 { font-size: 30px; }
+    .sb3 { font-size: 24px; }
+	.dp1 { font-size: 20px; }
+    .dp2 { font-size: 22px; }	
+	.dp3 { font-size: 16px; }
+    .dp4 { font-size: 14px; }
+    .cp1 { font-size: 13px; }
+	.cp2 { font-size: 12px; }
+	.cp3 { font-size: 11px; }
+
+    .desk { display: none; }
+    .mobile { display: block; }    
+}
+
+.tace { text-align: center; }
+.tale { text-align: left; }
+.tari { text-align: right; }
+
+.hdn { visibility: hidden; }

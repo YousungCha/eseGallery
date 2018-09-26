@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url(/fonts/otf/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+
+
+body, html, div, a { font-family: 'Noto Sans Korean'; }
+p {line-height: 1.8; margin: 0px;}
+
+@media(max-width: 1200px) {
+    .imgResp {width: 100%;}
+}
+
+.norm-font  { font-family: 'Malgun Gothic'; letter-spacing: -0.02em; }
+
+/* Img 조작 ***/
+.bdr {border: 1px solid silver;}
+.imgClick:hover {
+	cursor: pointer; opacity: 0.3; 
+	transition-duration: 0.5s;
+}
+
+/* 워딩 스타일 ***/
+.maj-t1	{ font-size: 60px; line-height: 1.5; letter-spacing: -0.1em; margin: 0px;}
+.maj-t2	{ font-size: 50px; line-height: 1.5; letter-spacing: -0.1em; margin: 0px;}
+.sub-t1	{ font-size: 40px; line-height: 1.5; letter-spacing: -0.1em; margin: 0px;}
+.sub-t2	{ font-size: 30px; line-height: 1.5; letter-spacing: -0.1em; margin: 0px;}
+.sub-t3 { font-size: 22px; line-height: 1.5; letter-spacing: -0.05em; margin: 0px;}
+.nor-t1 { font-size: 18px; line-height: 1.8; letter-spacing: -0.05em; margin: 0px;}
+.nor-t2 { font-size: 15px; line-height: 1.8; letter-spacing: -0.03em; margin: 0px;}
+.sml-t1 { font-size: 13px; line-height: 1.8; letter-spacing: -0.00em; margin: 0px;}
+.sml-t2 { font-size: 11px; line-height: 1.8; letter-spacing: -0.00em; margin: 0px;}
+
+
+/* 텍스트 정렬 ***/
+.ta-le { text-align: left; }
+.ta-ri { text-align: right; }
+.ta-ce { text-align: center; }
+
+/* 여백 DIV 모음 ***/
+.blk-5  { clear: both; height: 5px; }
+.blk-10 { clear: both; height: 10px; }
+.blk-15 { clear: both; height: 15px; }
+.blk-20 { clear: both; height: 20px; }
+.blk-25 { clear: both; height: 25px; }
+.blk-30 { clear: both; height: 30px; }
+.blk-35 { clear: both; height: 35px; }
+.blk-40 { clear: both; height: 40px; }
+.blk-45 { clear: both; height: 45px; }
+.blk-50 { clear: both; height: 50px; }
+.blk-55 { clear: both; height: 55px; }
+.blk-60 { clear: both; height: 60px; }
+
+/* Bar DIV 모음 ***/
+.bar-1	{clear:both; height: 1px; border-top: 1px dashed #c0c0c0; margin-top: 10px; margin-bottom: 10px;}
+.bar-1-dark  {clear:both; height: 1px; border-top: 1px dashed #a0a0a0; margin-top: 10px; margin-bottom: 10px;}
+
+/* 패딩 모음 ***/
+.pdg-0	{ padding :0px; }
+.pdg-5	{ padding :5px; }
+.pdg-10	{ padding :10px; }
+.pdg-15	{ padding :15px; }
+.pdg-20	{ padding :20px; }
+.pdg-25 { padding: 25px; }
+.pdg-30 { padding: 30px; }
+.pdg-35 { padding: 35px; }
+.pdg-40 { padding: 40px; }
+
+/* 테이블 스타일 ***/
+.tb-default { width: 100%; padding: 10px; }
+.tb-default td {
+    padding:10px;   
+    border-bottom: 1px solid rgba(150,150,150,0.1);
+}
+.tb-sml { width: 100%; padding: 10px; }
+.tb-sml td { padding:5px; }

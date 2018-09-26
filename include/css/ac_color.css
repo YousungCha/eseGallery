@@ -1,0 +1,40 @@
+/* 글씨색 모음 ***/
+.tc-black        { color: black; }
+.tc-std-black        { color: #363B40; }
+.tc-white        { color: white; }
+.tc-std-silver {color: #9B9B9B;}
+.tc-white-silver {color: #e0e0e0;}
+.tc-std-gray {color: #555555;}
+.tc-std-red { color: #A60C0C; }
+.tc-red { color: #bc0000; }
+.tc-blue { color: #0000bc; }
+.tc-orange  { color: orange; }
+.tc-darkorange {color: #e76000}
+.tc-gold    {color:gold;}
+.tc-darkgold {color:#a69329;}
+
+/* 배경색 모음 ***/
+.bc-std-red      { background-color: #A60C0C; }
+.bc-body-silver  { background-color: #F3F3F3; }
+.bc-white-silver  { background-color: #f7f7f7; }
+.bc-silver { background-color: #e0e0e0; }
+.bc-white   {background-color: white;}
+.bc-black   {background-color: #190B0B;}
+.bc-std-black   {background-color: black;}
+.bc-gray   {background-color: #898989;}
+.bc-dark-gray   {background-color: #222222;}
+.bc-maroon  {background-color: maroon;}
+.bc-orange  {background-color: #ee7700;}
+.bc-dark-maroon {background-color: #350000}
+.bc-red {background-color: #EC1B23; }
+.bc-navy {background-color: #131B2A; }
+
+/* 형광 밑줄 span 모음 ***/
+.spn-black { background-color: black; }
+.spn-gray {background-color: gray;}
+.spn-white-silver {background-color: #e0e0e0;}
+.spn-maroon { background-color: maroon; }
+.spn-red { background-color: #A60C0C; }
+.spn-menu { background-color: rgba(0,0,0,0.7); padding: 10px; border-radius: 10px; }
+.spn-orange { background-color: #FF3600; }
+.spn-green { background-color: #003500; }

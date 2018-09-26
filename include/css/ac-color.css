@@ -1,0 +1,28 @@
+.twhite { color: white; }
+.twhite1 { color: #e7e7e7; }
+.twhite2 { color: #cccdcd; }
+
+.tblack { color: black; }
+.tsilver { color: silver; }
+.tgray { color: gray; }
+.tgray1 { color: #8D98A9; }
+
+.tacred { color : #D41147; }
+.tacred2 { color : #A70835; }
+.tacnavy { color: #14142a; }
+.torange {color:orange;}
+
+.bwhite { background-color: white; }
+.bwhite1 { background-color: #e7e7e7; }
+
+.bblack { background-color: black; }
+.bblack1 { background-color: #141414; }
+.bgray { background-color: gray; }
+.bgray1 { background-color: #42474E; }
+
+.bacred {background-color: #D41147; }
+.bacred2 { background-color: #A70835; }
+.bacnavy { background-color: #14142a; }
+.bacblue { background-color: #8BBFC3; }
+.bwhiteop002 { background-color: rgba(255,255,255,0.02); }
+.bwhiteop005 { background-color: rgba(255,255,255,0.05); }

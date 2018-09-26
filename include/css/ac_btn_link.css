@@ -1,0 +1,91 @@
+.top-button { clear: both; position: fixed; 
+              right:20px; bottom: 20px; padding:10px; padding-right: 13px; padding-left: 13px;
+              z-index: 99;  opacity: 0.5; 
+              border-radius: 20px;
+}
+
+/* 버튼 모음 ***/
+.btn-def { border: 0px; padding:10px; margin-bottom:3px; padding-left:20px; padding-right: 20px;}
+.btn-def:hover  { cursor: pointer; background-color: orange; transition-duration: 0.5s;}
+
+.btn-def-rounded { border: 2px solid black; padding:10px; margin-bottom:3px; padding-left:20px; padding-right: 20px; border-radius: 20px;}
+.btn-def-rounded:hover  { cursor: pointer; background-color: orange; transition-duration: 0.5s;}
+
+.btn-outline { border: 1px solid gray; padding:10px; }
+.btn-outline:hover  { cursor: pointer; background-color: orange; transition-duration: 0.5s;}
+
+.btn-sml { border: 0px; padding:5px; }
+.btn-sml:hover  { cursor: pointer; background-color: orange; transition-duration: 0.5s;}
+.btn-block  {width: 100%;}
+
+
+/* 인풋 스타일 ***/
+.input-default {
+    padding: 5px; margin: 0px; border: 1px solid silver;
+}
+.input-block { width: 100%; }
+.input-sml {
+    padding: 3px; margin: 0px; border: 1px solid silver;
+}
+.input-sml::placeholder {
+    color: silver;
+}
+
+/* 링크 스타일 ***/
+.a-link-white        { color: white; }
+.a-link-white:hover  { color: orange; text-decoration: none; transition-duration: 0.5s;}
+.a-link-silver        { color: silver; }
+.a-link-silver:hover  { color: white; text-decoration: none; transition-duration: 0.5s;}
+.a-link-gray        { color: #101010; }
+.a-link-gray:hover  { color: black; text-decoration: none; transition-duration: 0.5s;}
+.a-link-black        { color: black; }
+.a-link-black:hover  { color: orange; text-decoration: none; transition-duration: 0.5s;}
+.a-link-orange        { color: #e76000; }
+.a-link-orange:hover  { color: orange; text-decoration: none; transition-duration: 0.5s;}
+
+
+/* 라디오 버튼 스타일 ***/
+.section {margin-left: -15px;}
+.section input[type="radio"] { display: none; }
+.container label { position: relative; }
+
+/* Base styles for spans */
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Radio buttons */
+.container span.radio:hover { cursor: pointer; }
+.container span.radio::before {
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  background-color: #A8AAC1;
+  border-radius: 50px;
+}
+.container span.radio::after {
+  left: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: left .25s, background-color .25s;
+}
+input[type="radio"]:hover + label span.radio::after {
+  left: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #e76000;
+  transition: left .25s, background-color .25s;
+}
+
+input[type="radio"]:checked + label span.radio::after {
+  left: 4px;
+  background-color: #EBFF43;
+}

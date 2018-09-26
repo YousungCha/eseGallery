@@ -1,0 +1,55 @@
+/* DIV 조작 ***/
+.full-height	{ height: 100vh; }
+.body-bdr	{ border-left: 10px solid maroon; border-right: 10px solid maroon; }
+.body-bdr-black   { border-left: 10px solid #190B0B; border-right: 10px solid #190B0B; }
+.main-menu     { clear: both; width:100%; position: fixed; top: 0px; z-index: 99; }
+.bdr-top-bottom { border-top:1px solid silver; border-bottom: 1px solid silver; }
+.bdr-bottom { border-bottom: 1px solid silver; }
+.bdr-top { border-top: 1px solid silver; }
+
+/* 서브 메뉴 ***/
+.subnav          { width:200px; position: absolute; display:none; z-index:1; }
+.subnav a        { font-size:13px; color:#e0e0e0; line-height: 180%;  }
+.subnav a:hover  { font-size:13px; color:yellow;  line-height: 180%;  }
+
+/* 표준 Bar ***/
+.std-bar { clear: both; width:75px; border-top: 3px solid orange; }
+.sml-bar { clear: both; width:40px; border-top: 3px solid orange; }
+
+.cf-box-main {
+    background-image: url('/images/cf_screen/main_1.jpg'); 
+    background-size: cover;
+}
+
+.cf-box-allencarr {
+    background-image: url('/images/cf_screen/carr_1.jpg'); 
+    background-size: cover;
+}
+.cf-box-co {
+    background-image: url('/images/cf_screen/corp_1.jpg'); 
+    background-size: cover;
+}
+.cf-box-book {
+    background-image: url('/images/cf_screen/book_1.jpg'); 
+    background-size: cover;
+}
+.cf-box-iv {
+    background-image: url('/images/cf_screen/testi_2.jpg'); 
+    background-size: cover;
+}
+.cf-box-testi {
+    background-image: url('/images/cf_screen/testi_1.jpg'); 
+    background-size: cover;
+}
+.cf-box-branson {
+    background-image: url('/images/cf_screen/cele.jpg'); 
+    background-size: cover;
+}
+.cf-box-session {
+    background-image: url('/images/cf_screen/session_1.jpg'); 
+    background-size: cover;
+}
+.cf-box-about {
+    background-image: url('/images/cf_screen/about_1.jpg'); 
+    background-size: cover;
+}
